@@ -1,3 +1,11 @@
+# VirtualBox Clipboard Fix
+
+Add the following to your .bashrc or equivalent on your VM to fix clipboard issues between your host and vm.
+```bash
+pkill -f VBoxClient; VBoxClient --clipboard
+```
+
+
 # VirtualBox Guest Resolution Fixer
 
 ## Table of Contents
